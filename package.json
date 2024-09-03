@@ -1,17 +1,29 @@
 {
-  "name": "app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "open-k",
+  "version": "1.0.0-beta",
+  "description": "Koinos Pro REST API call",
+  "main": "start.js",
   "scripts": {
-    "build": " ",
-    "start": "node ./bin/www"
+    "test": ""
   },
+  "keywords": [
+    "koinos"
+  ],
+  "author": "isaac dozier",
+  "license": "MIT",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
-  }
+    "axios": "^1.7.5",
+    "child_process": "^1.0.2",
+    "foreach": "^2.0.6",
+    "koilib": "^8.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacdozier/learn-koinos.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacdozier/learn-koinos/issues"
+  },
+  "homepage": "https://github.com/isaacdozier/learn-koinos/tree/main#readme"
 }
